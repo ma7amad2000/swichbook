@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--تطوير برمجة المطور محمد لطفي مكراز-->
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switchbook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/mypic.ico"/>
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" >
+                <input type="text" placeholder=".....بــحـــث">
+            </div>
+            <div class="vav-user-icone online">
+                <img src="images/mypic.jpg" alt="profile">
+            </div>
+        </div>
+    </nav>
+    <!--cotainer -->
+    <div class="container">
+        <!-- البار الايسر -->
+        <div class="left-sidebar">
+            <div class="emp-links">
+                <a href="#"><img src="images/news.png" >اخر الاخبار</a>
+                <a href="#"><img src="images/friends.png" >الاصدقاء</a>
+                <a href="#"><img src="images/group.png">المجموعات</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">التلفاز</a>
+                <a href="#">عرض المزيد</a>
+            </div>
+            <div class="shortcut-links">
+                <p>اختصاراتك</p>
+                <a href="#"><img src="images/shortcut-1.png" >تعلم البايثون</a>
+                <a href="#"><img src="images/shortcut-2.png" >تعلم جافا</a>
+                <a href="#"><img src="images/shortcut-3.png" >php +sqlتعلم</a>
+                <a href="#"><img src="images/shortcut-4.png" >تعلم معي</a>
+            </div>
+        </div>
+        <!--البار الاوسط-->
+        <div class="main-content">
+            <div class="story-gallary">
+                <div class="story s1">
+                    <img src="images/member-1.png">
+                    <p>لينا</p>
+                </div>
+                <div class="story s2">
+                    <img src="images/hamead.png">
+                    <p>ﺣﻣيڈ مڱڔٲﺰ</p>
+                </div>
+                <div class="story s3">
+                    <img src="images/Picsart_23-02-21_07-00-50-714.png">
+                    <p>ِAbdo Alarfe</p>
+                </div>
+                <div class="story s4">
+                    <img src="images/member-4.png">
+                    <p>Ahmed Ali</p>
+                </div>
+                <div class="story s5">
+                    <img src="images/upload.png">
+                    <p>انشاء قصه</p>
+                </div>
+        
+            </div>
+            <div class="write-post">
+              <div class="user-pro">
+                <img src="images/mypic.jpg" dir="rtl">
+                <div>
+                    <p dir="rtl">ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ</p>
+                    <small dir="rtl">عام</small>
+                </div>
+              </div>
+              <div class="post_input">
+                <form>
+                <textarea rows="3" placeholder="بما تفكر يا ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ؟" dir="rtl" required value="" id="text"></textarea>
+                <button type="submit" class="nashir" onclick="getValue()" name="nasher">نشر</button>
+        
+
+            </form>
+                <div class="add-post-links">
+                    <a href="" dir="rtl"><img src="images/feeling.png"|>النشاط/الشعور</a>
+                    <a href="" dir="rtl"><img src="images/photo.png" >صوره/ فيديو</a>
+                    <a href="#" dir="rtl"><img src="images/live-video.png">فيديو بث مباشر</a>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="posting">
+                <div class="user-pro">
+                    <img src="images/mypic.jpg" width="80px">
+                    <div>
+                        <p>ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ</p>
+                        <small><span>فبراير</span>20 2023 ,11:30م</small>
+                    
+                    </div>
+                  </div>
+                  <p dir="rtl">مشاريعي الخاصه </p>
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/Omhfxb33KHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <div class="com-share-like">
+                    <div class="icons">
+                        <div><img src="images/like-blue.png">10k Like</div>
+                        <div><img src="images/comments.png">888 comment</div>
+                        <div><img src="images/share.png">14.3k share</div>
+                        
+                    </div>
+                  </div>
+            </div>
+            <div class="posting">
+                <div class="user-pro">
+                    <img src="images/mypic.jpg" width="80px">
+                    <div>
+                        <p>ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ</p>
+                        <small><span>فبراير</span>20 2023 ,11:30م</small>
+                    
+                    </div>
+                  </div>
+                  <p dir="rtl">اعمل ضمن رابطة مبرمجي ليبيا</p>
+                <img src="images/pic.png" width="100%">
+                  <div class="com-share-like">
+                    <div class="icons">
+                        <div><img src="images/like-blue.png">20.3k Like</div>
+                        <div><img src="images/comments.png">12k comment</div>
+                        <div><img src="images/share.png">10.4k share</div>
+                    </div>
+                  </div>
+            </div>
+           
+            <div class="posting">
+                <div class="user-pro">
+                    <img src="images/mypic.jpg" width="80px">
+                    <div>
+                        <p>ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ</p>
+                        <small><span>فبراير</span>21 2023 ,10:30م</small>
+                    
+                    </div>
+                  </div>
+                  <p dir="rtl">بعض اعمالي</p>
+                <img src="images/pic.png" width="100%">
+                  <div class="com-share-like">
+                    <div class="icons">
+                        <div><img src="images/like-blue.png">1.k Like</div>
+                        <div><img src="images/comments.png">100 comment</div>
+                        <div><img src="images/share.png">10 share</div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="posting">
+                <div class="user-pro">
+                    <img src="images/mypic.jpg" width="80px">
+                    <div>
+                        <p>ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ</p>
+                        <small><span>فبراير</span>22 2023 ,12:30م</small>
+                    
+                    </div>
+                  </div>
+                  <p dir="rtl">حلمي بسيط</p>
+                <img src="images/shortcut-4.png" width="100%">
+                  <div class="com-share-like">
+                    <div class="icons">
+                        <div><img src="images/like-blue.png">200 Like</div>
+                        <div><img src="images/comments.png">12 comment</div>
+                        <div><img src="images/share.png">13 share</div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="posting">
+                <div class="user-pro">
+                    <img src="images/mypic.jpg" width="80px">
+                    <div>
+                        <p>ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ</p>
+                        <small><span>فبراير</span>23 2023 ,1:30ص</small>
+                    
+                    </div>
+                  </div>
+                  <p dir="rtl">شاب طموح في العشرين من عمره</p>
+                <img src="images/pic.png" width="100%">
+                  <div class="com-share-like">
+                    <div class="icons">
+                        <div><img src="images/like-blue.png">450 Like</div>
+                        <div><img src="images/comments.png">120 comment</div>
+                        <div><img src="images/share.png">10 share</div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="posting">
+                <div class="user-pro">
+                    <img src="images/mypic.jpg" width="80px">
+                    <div>
+                        <p>ﭕ﴿ﻣځﻣڐ ﻣڳږٲﺰ ﹷ﴾ﭕﹾ</p>
+                        <small><span>فبراير</span>23 2023 ,4:30ص</small>
+                    
+                    </div>
+                  </div>
+                  <p dir="rtl">بدأت في البرمجه في 2022</p>
+                <img src="images/pic.png" width="100%">
+                  <div class="com-share-like">
+                    <div class="icons">
+                        <div><img src="images/like-blue.png">10 Like</div>
+                        <div><img src="images/comments.png">9 comment</div>
+                        <div><img src="images/share.png">10 share</div>
+                    </div>
+                  </div>
+            </div>
+
+
+
+
+
+
+
+<script src="c:/xampp/htdocs/nasher/nsher.php"></script>
+
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <!--البار الايمن-->
+        <div class="right-sidebar">
+            <div class="sidepr-title">
+                <h4>المناسبات</h4>
+                <a href="#">عرض المزيد</a>
+            </div>
+            <div class="event">
+               <div class="left-event">
+                   <h3>19</h3>
+                   <span>يناير</span>
+                </div>
+            
+            
+                <div class="right-event">
+                    <h4>عيد ميلاد</h4>
+                    <p>محمد لطفي , ليبيا</p>
+                    <a href="">المزيد</a>
+                </div>
+          
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>اكتوبر</span>
+                 </div>
+             
+             
+                 <div class="right-event">
+                     <h4>التحاق بالجامعه</h4>
+                     <p>جامعة بنغازي , تقنية ومعلومات</p>
+                     <a href="">المزيد</a>
+                 </div>
+           
+             </div>
+             <div class="sidepr-title">
+                <h4>الاعلانات</h4>
+                <a href="#">اغلاق</a>
+             </div>
+             <img src="images/pubg.jpeg" class="sidebar-adds">
+             <div class="sidepr-title">
+                <h4>المحادثات</h4>
+                <a href="#">اخفاء</a>
+             </div>
+             <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" >
+                </div>
+                <p>لينا</p>
+             </div>
+             <div class="online-list">
+                <div class="online">
+                    <img src="images/Picsart_23-02-21_07-00-50-714.png" >
+                </div>
+                <p>ِAbdo Alarfe</p>
+             </div>
+             <div class="online-list">
+                <div class="online">
+                    <img src="images/hamead.png" >
+                </div>
+                <p>ﺣﻣيڈ مڱڔٲﺰ </p>
+             </div>
+             <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png" >
+                </div>
+                <p>Ahmed Ali</p>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
